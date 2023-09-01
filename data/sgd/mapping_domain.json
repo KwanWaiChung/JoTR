@@ -1,0 +1,18 @@
+{
+  "Restaurants": "Restaurant",
+  "Media": "Media",
+  "Events": "Event",
+  "Music": "Music",
+  "Movies": "Movie",
+  "Flights": "Flight",
+  "RideSharing": "RideSharing",
+  "RentalCars": "RentalCar",
+  "Buses": "Bus",
+  "Hotels": "Hotel",
+  "Services": "Service",
+  "Homes": "Home",
+  "Banks": "Bank",
+  "Calendar": "Calendar",
+  "Weather": "Weather",
+  "Travel": "Travel"
+}

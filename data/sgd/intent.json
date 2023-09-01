@@ -1,0 +1,20 @@
+[
+  "affirm",
+  "affirm_intent",
+  "confirm",
+  "goodbye",
+  "inform",
+  "inform_count",
+  "inform_intent",
+  "negate",
+  "negate_intent",
+  "notify_failure",
+  "notify_success",
+  "offer",
+  "offer_intent",
+  "req_more",
+  "request",
+  "request_alts",
+  "select",
+  "thank_you"
+]

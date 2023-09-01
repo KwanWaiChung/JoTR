@@ -1,0 +1,16 @@
+{
+    "welcome": 1,
+    "greet": 1,
+    "bye": 1,
+    "reqmore": 1,
+    "Inform": 1,
+    "Request": 1,
+    "Book": 1,
+    "OfferBooked": 1,
+    "NoBook": 1,
+    "Recommend": 1,
+    "NoOffer": 1,
+    "OfferBook": 1,
+    "Select": 1,
+    "thank": 1
+}

@@ -1,0 +1,20 @@
+{
+  "INFORM_INTENT": "InformIntent",
+  "REQUEST": "Request",
+  "INFORM": "Inform",
+  "OFFER": "Offer",
+  "REQUEST_ALTS": "RequestAlts",
+  "INFORM_COUNT": "InformCount",
+  "SELECT": "Select",
+  "CONFIRM": "Confirm",
+  "AFFIRM": "Affirm",
+  "NOTIFY_SUCCESS": "NotifySuccess",
+  "THANK_YOU": "ThankYou",
+  "GOODBYE": "bye",
+  "OFFER_INTENT": "OfferIntent",
+  "AFFIRM_INTENT": "AffirmIntent",
+  "NEGATE": "Negate",
+  "REQ_MORE": "reqmore",
+  "NOTIFY_FAILURE": "NotifyFailure",
+  "NEGATE_INTENT": "NegateIntent"
+}

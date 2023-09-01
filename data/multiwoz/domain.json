@@ -1,0 +1,11 @@
+{
+  "Attraction": 1,
+  "Hospital": 1,
+  "Booking": 1,
+  "Hotel": 1,
+  "Restaurant": 1,
+  "Taxi": 1,
+  "Train": 1,
+  "Police": 1,
+  "general": 1
+}
