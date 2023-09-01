@@ -1,10 +1,14 @@
-# Setup the conda environment
+## JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialogue Policy Learning
+**Authors**: Wai-Chung Kwan, Huimin Wang, Hongru Wang, Zezhong Wang, Xian Wu, Yefeng Zhang, Kam-Fai Wong.
+Code of our PPTOD paper: [JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialogue Policy Learning]()
+
+## Setup the conda environment
 ```yaml
 conda env create --name jotr --file environment.yml 
 ```
 
-# Pretrain 
-## MultiWoz
+## Pretrain 
+### MultiWoz
 ```yaml
 n_samples=10000
 python prefinetune.py \
@@ -46,7 +50,7 @@ n_samples: How many turns used for pre-tuning. It's common to use 4000 or 40000.
 --add_decoder_pos_embedding: The type embedding used in the encoder to indicate the type of context (db, belief, user act, system act)
 ```
 
-## SGD
+### SGD
 ```yaml
 n_samples=10000
 python sgd_prefinetune.py \
@@ -72,8 +76,8 @@ python sgd_prefinetune.py \
 --save_prefix "sgd_pretrained" 
 ```
 
-# Finetune with PPO
-## MultiWoz
+## Finetune with PPO
+### MultiWoz
 ```yaml
 prefinetuned_path="saved/multiwoz_pretrained" 
 alr=5e-7
@@ -122,7 +126,7 @@ The explanation of some parameters:
 --rew_type: The reward function to use. `aggressive` refers to using reward shaping, `normal` refers to without using reward shaping.
 ```
 
-## SGD
+### SGD
 ```yaml
 prefinetuned_path="saved/multiwoz_pretrained" 
 alr=5e-7
