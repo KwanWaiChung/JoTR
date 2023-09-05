@@ -1,7 +1,7 @@
 ## JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialogue Policy Learning
 **Authors**: Wai-Chung Kwan, Huimin Wang, Hongru Wang, Zezhong Wang, Xian Wu, Yefeng Zhang, Kam-Fai Wong.
 
-Code of our PPTOD paper: [JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialogue Policy Learning](https://arxiv.org/abs/2309.00230)
+Code of our paper: [JoTR: A Joint Transformer and Reinforcement Learning Framework for Dialogue Policy Learning](https://arxiv.org/abs/2309.00230)
 
 ## Setup the conda environment
 ```yaml
